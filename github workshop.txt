@@ -1,0 +1,43 @@
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git
+$ git init
+Initialized empty Git repository in C:/Users/tecnico/Desktop/workshop git/.git/
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$ git config--global user.name"<rafaelmanias>"
+git: 'config--global' is not a git command. See 'git --help'.
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+Github - comandos:
+
+$ git config--global user.name"<rafaelmanias>"
+git: 'config--global' is not a git command. See 'git --help'.
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$ git config --global user.name"rafaelmanias"  <--
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$ git config --global user.email"rafael.manias@outlook.com" <--
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$ git remove add origin https://github.com/rafaelmanias/palestra-gti-gtihub.git
+git: 'remove' is not a git command. See 'git --help'.
+
+Did you mean this?
+        remote
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$ git remote add origin https://github.com/rafaelmanias/palestra-gti-gtihub.git <--
+
+
+
+
+
+
+
+
+
+
+
+
+
