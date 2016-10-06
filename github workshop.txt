@@ -14,10 +14,10 @@ $ git config--global user.name"<rafaelmanias>"
 git: 'config--global' is not a git command. See 'git --help'.
 
 tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
-$ git config --global user.name"rafaelmanias"  <--
+$ git config --global user.name "rafaelmanias"               <-- nome do usuário
 
 tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
-$ git config --global user.email"rafael.manias@outlook.com" <--
+$ git config --global user.email "rafael.manias@outlook.com" <-- email do usuário
 
 tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
 $ git remove add origin https://github.com/rafaelmanias/palestra-gti-gtihub.git
@@ -27,10 +27,43 @@ Did you mean this?
         remote
 
 tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
-$ git remote add origin https://github.com/rafaelmanias/palestra-gti-gtihub.git <--
+$ git remote add origin https://github.com/rafaelmanias/palestra-gti-gtihub.git <-- adicionar o url do git
 
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$  git status                                               <<-- status de arquivos presentes
+On branch master
 
+Initial commit
 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        github workshop.txt
+        index.html.txt
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$ git add .                                                 <-- adiciona todos os arquivos da pasta (caso queira um arquivo expecífico, use git add "nome do arquivo.extenção")
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$ git commit -m "Primeiro commit"                          <-- salvar alterações com explicação
+[master (root-commit) bd9fd58] Primeiro commit
+ 2 files changed, 52 insertions(+)
+ create mode 100644 github workshop.txt
+ create mode 100644 index.html.txt
+
+tecnico@lab102-01 MINGW64 ~/Desktop/workshop git (master)
+$ git push -u origin master                               <-- subir os arquivos ( "-u" somente no primeiro push)
+Username for 'https://github.com': rafaelmanias
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 678 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/rafaelmanias/palestra-gti-gtihub.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+------------
 
 
 
